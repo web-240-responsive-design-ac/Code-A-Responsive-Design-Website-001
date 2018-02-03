@@ -181,3 +181,22 @@ footer a{
     text-decoration: none;
 }
 
+/* Media Queries */
+
+@media screen and (max-width: 700px){
+
+	#featured li{
+		width:46%;
+	}
+	
+}
+
+@media screen and (max-width: 400px){
+
+	#featured li{
+		width:92%;
+	}
+	
+
+}
+
