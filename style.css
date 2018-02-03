@@ -224,6 +224,46 @@ footer a{
 
 /*mobiles*/
 @media screen and (max-width: 480px){
+	
+	.burger-nav{
+		display: block;
+		height: 40px;
+		width: 100%;
+		background: url(images/menu.png) no-repeat 98% center;
+		background-color: #404040;
+		cursor: pointer;
+	}
+	
+	header .wrapper{
+		width: 100%;
+		padding: 0;
+	}
+	
+	header nav ul{
+		overflow: hidden;
+		background: #505050;
+		height: 0;
+	}
+	
+	
+	header nav ul.open{
+		height: auto;
+	}
+	
+	header nav ul li{
+		float: none;
+		text-aligh: left;
+		width: 100%;
+		margin: 0;
+	}
+	
+	header nav ul li a{
+		color: #FFFFFF;
+		padding: 10px;
+		border-bottom: 1px solid #404040;
+		display: block;
+		margin: 0;
+	}
 
 	#featured li{
 		width:90%;
